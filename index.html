@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=0" />
     <link rel="stylesheet" href="fonts/stylesheet.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="images/like.png" type="image/x-icon" />
@@ -122,6 +122,7 @@
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+      new AOS.init();
       new AOS.init();
       // Код библиотеки https://github.com/VKCOM/vkui-connect
       (function(window) {
@@ -289,8 +290,6 @@
 // Код библиотеки https://github.com/VKCOM/vkui-connect -----
 
 connect.send('VKWebAppInit', {});
-
     </script>
   </body>
 </html>
-
