@@ -75,13 +75,13 @@ body {
 .main__arrow-left {
   position: absolute;
   bottom: 10%;
-  left: 10%;
+  left: 5%;
 }
 
 .main__arrow-right {
   position: absolute;
   bottom: 10%;
-  right: 10%;
+  right: 5%;
 }
 
 @keyframes arrow-anim {
@@ -103,8 +103,9 @@ body {
 }
 
 .message video {
-  width: 600px;
+  width: 100%;
   height: 750px;
+  height: 75vh;
 }
 
 .message h3 {
@@ -140,9 +141,6 @@ body {
 }
 
 @media (max-width: 900px) {
-  .message video {
-    width: 90%;
-  }
   .message h3 {
     font-size: 30px;
   }
@@ -166,7 +164,10 @@ body {
   }
 
   .message h3 {
-    margin-top: -70px;
+    margin-top: 30px;
+  }
+  .main__arrow img {
+    transform: scale(0.6);
   }
 }
 
